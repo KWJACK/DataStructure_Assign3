@@ -1,0 +1,70 @@
+allocated Requst 1
+60	E	F	H	A	
+
+allocated Requst 2
+90	A	H	G	
+
+allocated Requst 3
+70	B	C	D	F	
+
+allocated Requst 4
+80	D	F	G	
+
+Link failure D F
+
+using fail link path : 3
+using fail link path : 4
+deferred Reqest3
+
+allocated Requst 4
+80	D	E	F	G	
+deferred Reqest5
+
+allocated Requst 6
+120	C	D	E	F	
+
+End of service 1
+60	E	F	H	A
+
+deferred Request3
+
+allocated Requst 5
+50	H	A	C	
+
+deferred Reqest7
+
+Link failure A H
+
+using fail link path : 2
+using fail link path : 5
+deferred Reqest2
+
+allocated Requst 5
+50	H	F	E	D	C	
+allocated Requst 8
+100	H	F	
+
+End of service 6
+120	C	D	E	F
+
+allocated Requst 3
+70	B	C	D	E	F	
+
+deferred Request7
+
+deferred Request2
+
+End of service 8
+100	H	F
+
+deferred Request7
+
+deferred Request2
+
+///////////////////////end of file(event.in)/////////////////////////
+allocated Requst 7
+40	B	A	C	D	E	F	H	G	
+
+deferred Request 2
+
+delete Request 2
